@@ -74,7 +74,7 @@ public:
 
     Prototype* Clone() const override
     {
-        // Note: Beware of "Shallow Copy" when using the default copy-constructor.
+        /** NOTE: Beware of "Shallow Copy" when using the default copy-constructor.*/
         return new ConcretePrototype2(*this);
     }
 private:

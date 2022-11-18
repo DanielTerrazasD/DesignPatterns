@@ -117,7 +117,7 @@ public:
 class ConcreteFactory1 : public AbstractFactory
 {
     /**
-     * Note that signatures of the Concrete Factory's methods return an
+     * NOTE: Note that signatures of the Concrete Factory's methods return an
      * abstract product, while inside the method a concrete product is
      * instantiated.
      */
@@ -141,7 +141,7 @@ public:
 class ConcreteFactory2 : public AbstractFactory
 {
     /**
-     * Note that signatures of the Concrete Factory's methods return an
+     * NOTE: Note that signatures of the Concrete Factory's methods return an
      * abstract product, while inside the method a concrete product is
      * instantiated.
      */
