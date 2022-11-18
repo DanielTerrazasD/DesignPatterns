@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+// Design Pattern - Facade
+
 /**
  * @brief The Subsystem can accept requests either from the facade or client
  * directly. In any case, to the Subsystem, the Facade is yet another client,
@@ -118,7 +120,7 @@ int main()
 // Output:
 // Facade initializes subsystems:
 // Subsystem1: Ready!
-// Subsystem2 : Get ready!
+// Subsystem2: Get ready!
 // Facade orders subsystems to perform the action:
 // Subsystem1: Go!
-// Subsystem2 : Fire!
+// Subsystem2: Fire!

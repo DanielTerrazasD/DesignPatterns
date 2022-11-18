@@ -2,6 +2,8 @@
 #include <string>
 #include <unordered_map>
 
+// Design Pattern - Proxy
+
 /**
  * @brief The Subject interface declares common operations for both RealSubject
  * and the Proxy. As long as the client works with RealSubject using this

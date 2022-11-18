@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+// Design Pattern - Decorator
+
 /**
  * @brief The Component interface defines operation that can be altered
  * by decorators.
@@ -114,7 +116,7 @@ int main()
 
 // Output:
 // Client: I've got a simple component:
-// RESULT : ConcreteComponent
+// RESULT: ConcreteComponent
 
-// Client : Now I've got a decorated component:
-// RESULT : ConcreteDecoratorB(ConcreteDecoratorA(ConcreteComponent))
+// Client: Now I've got a decorated component:
+// RESULT: ConcreteDecoratorB( ConcreteDecoratorA( ConcreteComponent ) )

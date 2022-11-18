@@ -114,8 +114,8 @@ int main()
 }
 
 // Output:
-//Abstraction: Base operation with :
-//ConcreteImplementationA: Here's the result of the platform A.
+// Abstraction: Base operation with:
+// ConcreteImplementationA: Here's the result of the platform A.
 
-//ExtendedAbstraction : Extended operation with :
-//ConcreteImplementationB: Here's the result of the platform B.
+// ExtendedAbstraction: Extended operation with:
+// ConcreteImplementationB: Here's the result of the platform B.

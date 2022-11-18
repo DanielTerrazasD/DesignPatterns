@@ -2,6 +2,7 @@
 #include <string>
 #include <list>
 
+// Design Pattern - Composite
 
 /**
  * @brief Component base class declares common operations for both
@@ -189,7 +190,7 @@ int main()
     ClientCode(tree);
     std::cout << "\n\n";
 
-    std::cout << "Client: I don't need to check the component classes even when managing the three:\n";
+    std::cout << "Client: I don't need to check the component classes even when managing the tree:\n";
     ClientCode2(tree, simple);
     std::cout << "\n";
 
@@ -210,5 +211,5 @@ int main()
 // Client: Now I've got a composite tree:
 // RESULT: Branch ( Branch ( Leaf + Leaf ) + Branch ( Leaf ) )
 
-// Client: I don't need to check the component classes even when managing the three:
+// Client: I don't need to check the component classes even when managing the tree:
 // RESULT: Branch ( Branch ( Leaf + Leaf ) + Branch ( Leaf ) + Leaf )
